@@ -172,7 +172,7 @@ body {
   </div>
   <div class="rule-block">
     <h3>Setup</h3>
-    <div class="rule-row"><div class="rule-dot"></div><p>Arrange <strong>16 shots</strong> in a square — <strong>10 Fireball</strong> and <strong>6 Apple Juice</strong>. Shuffle so nobody knows which is which.</p></div>
+    <div class="rule-row"><div class="rule-dot"></div><p>Arrange <strong>16 shots</strong> in a square — <strong>10 Soju</strong> and <strong>6 water</strong>. Shuffle so nobody knows which is which.</p></div>
     <div class="rule-row"><div class="rule-dot"></div><p>Connor needs a <strong>premix or beer</strong> for the whole game.</p></div>
   </div>
   <div class="rule-block">
@@ -256,20 +256,17 @@ body {
 var ALL_QUESTIONS = [
   {q:"True or False: Connor has stayed in over 15 countries.",a:"TRUE.",cat:"g",bonus:{txt:"Guess the exact number. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"16"}},
   {q:"True or False: Connor has broken a bone.",a:"FALSE.",cat:"g"},
-  {q:"True or False: Connor can cook a proper meal from scratch.",a:"TRUE.",cat:"g"},
-  {q:"True or False: Connor has cried at a wedding.",a:"FALSE.",cat:"g"},
   {q:"True or False: Connor owns more than 10 pairs of shoes.",a:"TRUE.",cat:"g"},
   {q:"True or False: Connor has cheated at a video game.",a:"TRUE.",cat:"g"},
-  {q:"True or False: Connor met Roda on a dating app.",a:"TRUE.",cat:"g"},
-  {q:"True or False: Connor has ever had a long-distance relationship.",a:"FALSE.",cat:"g"},
-  {q:"True or False: Connor has fallen asleep on a bus in a foreign country and ended up in a different town.",a:"TRUE.",cat:"g"},
+  {q:"True or False: Connor met Roda on a dating app.",a:"TRUE.",cat:"g"},bonus:{txt:"Guess the correct app. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"Hinge"}}
+  {q:"True or False: Connor has passed out on a bus in a foreign country and ended up in a different town.",a:"TRUE.",cat:"g"},
   {q:"True or False: Connor has cried at a movie before.",a:"TRUE.",cat:"g",bonus:{txt:"Name the movie or its year of release. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"Marley and Me (2008)."}},
   {q:"Higher or Lower: Is Connor's age higher or lower than 28?",a:"Higher. He is 29.",cat:"g",bonus:{txt:"Guess Connor's exact age. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"29"}},
-  {q:"Higher or Lower: Is Connor taller or shorter than 6 foot?",a:"Taller. He is 6 foot 2.",cat:"g"},
+  {q:"Higher or Lower: Is Connor taller or shorter than 6 foot?",a:"Taller. He is 6 foot 2 or 190cm.",cat:"g"},
   {q:"Higher or Lower: Has Connor known Roda for more or less than 3 years?",a:"More than 3 years.",cat:"g"},
-  {q:"Higher or Lower: Has Connor had more or fewer than 5 girlfriends?",a:"Fewer. He has had 4.",cat:"g",bonus:{txt:"Guess the exact number. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"4"}},
+  {q:"Higher or Lower: Has Connor had more or less than 5 girlfriends?",a:"Less.",cat:"g",bonus:{txt:"Guess the exact number. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"4"}},
   {q:"Higher or Lower: Has Connor spent more or less than 7 years studying at university?",a:"Less. Five and a half years.",cat:"g",bonus:{txt:"Closest guess gives out a shot and Connor takes a shot. Ties: both give one out.",ans:"5.5"}},
-  {q:"Higher or Lower: Has Connor worked more or fewer than 3 jobs?",a:"More. He has had 8.",cat:"g",bonus:{txt:"Guess the exact number. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"8"}},
+  {q:"Higher or Lower: Has Connor worked more or less than 3 jobs?",a:"More.",cat:"g",bonus:{txt:"Guess the exact number. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"8"}},
   {q:"What did Connor and Roda do on their first date?",a:"DIY Paint and Sip. (Painting accepted.)",cat:"g"},
   {q:"What was Connor's first instrument?",a:"Piano.",cat:"g"},
   {q:"What does Connor have a Masters of?",a:"Medical Biotechnology.",cat:"g"},
@@ -277,25 +274,22 @@ var ALL_QUESTIONS = [
   {q:"Does Connor currently have a celebrity crush?",a:"No. He is betrothed, not an amoral adulterer.",cat:"g"},
   {q:"When Connor goes out, is he more likely to be the last one standing or the first one home?",a:"First one home.",cat:"g"},
   {q:"True or False: Connor has been kicked out of a bar or venue.",a:"TRUE.",cat:"s"},
-  {q:"True or False: Connor has slid into someone's DMs and been left on read.",a:"FALSE.",cat:"s"},
   {q:"True or False: Connor has hit someone before.",a:"TRUE.",cat:"s"},
   {q:"True or False: Connor has chucked a sickie the day after a big night out.",a:"TRUE.",cat:"s"},
   {q:"True or False: Connor has been in trouble with the police.",a:"FALSE.",cat:"s"},
   {q:"True or False: Connor has gone skinny dipping.",a:"TRUE.",cat:"s"},
-  {q:"True or False: When Connor was single, he once suggested a Melbourne date spot to a girl who was based in Sydney.",a:"TRUE.",cat:"s"},
+  {q:"True or False: Connor once confused two dates and suggested a Melbourne resturaunt to a girl who lived in Sydney.",a:"TRUE.",cat:"s"},
   {q:"True or False: Connor has lied about his age to get into a venue.",a:"FALSE.",cat:"s"},
-  {q:"True or False: Connor has bailed on a date after seeing the person in real life.",a:"FALSE.",cat:"s"},
+  {q:"True or False: Connor has bailed on a date after seeing her in person.",a:"FALSE.",cat:"s"},
   {q:"True or False: Connor has dated someone his friends did not like.",a:"TRUE.",cat:"s"},
   {q:"True or False: Connor has had a situationship that lasted longer than 6 months.",a:"FALSE.",cat:"s"},
   {q:"Higher or Lower: Is Connor's body count higher or lower than 50?",a:"Higher.",cat:"s",bonus:{txt:"Guess the first digit of Connor's body count. Right: give out an extra shot and Connor takes a shot. Wrong: take both.",ans:"8"}},
-  {q:"What is the most Connor has ever spent on a single night out?",a:"$300.",cat:"s"},
   {q:"What was the drunkest Connor has ever been?",a:"First time at Whiskey Live.",cat:"s"},
-  {q:"Who is Connor's worst ex?",a:"Glo.",cat:"s"},
-  {q:"Has Connor ever had a threesome?",a:"Yes.",cat:"s"},
-  {q:"Has Connor ever had sex in public?",a:"Yes.",cat:"s"},
+  {q:"Who is Connor's worst ex?",a:"Glo (also accepted: GLOVID-19, Gloria or Bush-Pig,.",cat:"s"},
+  {q:"Has Connor had an FFM threesome?",a:"Yes.",cat:"s"},
+  {q:"Has Connor had sex in public?",a:"Yes, bare times brav.",cat:"s"},
   {q:"What country did Connor lose his virginity in?",a:"Australia.",cat:"s"},
   {q:"Has Connor ever hooked up with a friend's ex?",a:"No.",cat:"s"},
-  {q:"Has Connor ever woken up next to someone and immediately regretted it?",a:"Yes.",cat:"s"}
 ];
 
 var players=[],readerIdx=0,deck=[],deckPos=0,cardState="empty",listenersAttached=false;
